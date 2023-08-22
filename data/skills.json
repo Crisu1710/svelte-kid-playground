@@ -1,0 +1,10 @@
+[
+    {"name": "Linux", "gitlink": "https://github.com/torvalds/linux", "level": "70", "color": "blue", "text": "My favorite OS"},
+    {"name": "Vue.js", "gitlink": "https://github.com/vuejs/vue", "level": "50", "color": "blue", "text": "This website is build in Vue.js"},
+    {"name": "GO", "gitlink": "https://github.com/golang/go", "level": "50", "color": "blue", "text": "Currently learning"},
+    {"name": "Bash", "gitlink": "https://github.com/gitGNU/gnu_bash", "level": "65", "color": "blue", "text": ""},
+    {"name": "Python", "gitlink": "https://github.com/python", "level": "65", "color": "blue", "text": ""},
+    {"name": "Kubernetes (K8s)", "gitlink": "https://github.com/kubernetes/kubernetes", "level": "65", "color": "blue", "text": "My home server runs with K8s"},
+    {"name": "Prometheus", "gitlink": "https://github.com/prometheus/prometheus", "level": "70", "color": "blue", "text": "Used to monitor my home server"},
+    {"name": "Thanos", "gitlink": "https://github.com/thanos-io/thanos", "level": "60", "color": "blue", "text": ""}
+]

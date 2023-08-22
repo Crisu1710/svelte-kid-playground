@@ -8,7 +8,7 @@
 					<h1 class="text-cyan-400 mb-6">{skill.name}</h1>
 					<p>{skill.text}</p>
 				</div>
-				<p style="display:inline-block; width: 100%;"></p>
+				<p style="display:inline-block; width: 50%;"></p>
 				<div class="flex flex-row items-center">
 					<a class="btn bg-primary-hover-token border-2 border-cyan-400 text-cyan-400 h-14 mr-4" href="{skill.gitlink}">
 						<IconBrandGithub />

@@ -1,0 +1,90 @@
+[
+   {
+      "icon":"mdi-microsoft-windows",
+      "os":"Windows 10",
+      "name":"Gaming-System",
+      "cpu":"AMD Ryzen 7 2700X",
+      "gpu":"Nvidia RTX 2070",
+      "ram":"2x 8 GB DDR4-3200",
+      "mb":"Gigabyte X470 Aorus Ultra Gaming",
+      "psu":"500 Watt be quiet! Pure Power 10 ",
+      "disk":"1x 1 TB NVMe M.2, 1x 500 GB NVMe M.2"
+   },
+   {
+      "icon":"mdi-laptop",
+      "os":"Manjaro Linux (XFCE)",
+      "name":"ThinkPad T570",
+      "cpu":"Intel Core i5-7200U",
+      "gpu":"CPU",
+      "ram":"16 GB",
+      "mb":"default",
+      "psu":"default",
+      "disk":"500 GB M.2"
+   },
+   {
+      "icon":"mdi-laptop",
+      "os":"Manjaro Linux",
+      "name":"ThinkPad W500",
+      "cpu":"Intel",
+      "gpu":"Nvidia",
+      "ram":"16 GB",
+      "mb":"default",
+      "psu":"default",
+      "disk":"500 GB SSD"
+   },
+   {
+      "icon":"mdi-server",
+      "os":"Talos",
+      "name":"K8s Control Plane",
+      "cpu":"Intel® Core™ i5-5257U",
+      "gpu":"Intel® Iris® Graphics 6100",
+      "ram":"2x 8 GB DDR3",
+      "mb":"Minisforum U700",
+      "psu":"default",
+      "disk":"128 GB M.2"
+   },
+   {
+      "icon":"mdi-raspberry-pi",
+      "os":"Talos",
+      "name":"K8s Worker Node",
+      "cpu":"ARM",
+      "gpu": "-",
+      "ram":"4 GB",
+      "mb":"Raspberry Pi 4",
+      "psu":"POE Adapter",
+      "disk":"64 GB SD-Card"
+   },
+   {
+      "icon":"mdi-raspberry-pi",
+      "os":"Talos",
+      "name":"K8s Worker Node",
+      "cpu":"ARM",
+      "gpu": "-",
+      "ram":"4 GB",
+      "mb":"Raspberry Pi 4",
+      "psu":"POE Adapter",
+      "disk":"64 GB SD-Card"
+   },
+   {
+      "icon":"mdi-wall",
+      "os":"OPNsense",
+      "name":"Firewall",
+      "cpu":"Intel® Celeron® J3160",
+      "gpu":"Intel® Clear Video HD",
+      "ram":"4 GB DDR3",
+      "mb":"Protectli Vault 4",
+      "psu":"default",
+      "disk":"128 GB M.2"
+   },
+   {
+      "icon":"mdi-access-point",
+      "os":"OpenWrt",
+      "cpu":"N/A",
+      "gpu":"N/A",
+      "ram":"N/A",
+      "name":"Accesspoint",
+      "mb":"Mi Router 4A Gigabit Edition",
+      "psu":"default",
+      "disk":"N/A"
+   }
+]
