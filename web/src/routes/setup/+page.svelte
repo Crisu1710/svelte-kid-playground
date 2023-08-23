@@ -1,8 +1,8 @@
-<h1 class="text-center uppercase mt-6">my devices</h1>
-<div class="h-full mx-auto mt-4">
+<div class="container h-full mx-auto flex flex-col justify-center items-center">
+	<h1>my devices</h1>
 	<div class="flex flex-row flex-wrap justify-center">
 		{#each devices as device}
-		<div class="card p-6 ml-2 mr-2 mt-4" style="width: 400px;">			
+		<div class="card p-6 ml-2 mr-2 mt-2 mb-2" style="width: 400px;">			
 			<h1 class="text-center mb-4 text-cyan-400">{device.name}</h1>
 			<div class="grid-rows-1 flex flex-row">
 				<IconDisc />
@@ -42,9 +42,8 @@
 	import {IconDisc, IconCpu, IconPhoto, IconDeviceFloppy, IconPlug, IconCpu2, IconLayoutDashboard} from '@tabler/icons-svelte'
 
 	async function get_devices() {
-		let res = await fetch('http://127.0.0.1:8000/devices.json');
+		let res = await fetch('https://raw.githubusercontent.com/Crisu1710/svelte-kit-playground/main/data/devices.json');
 		devices = await res.json();
-		console.log(devices);
 	}
 
 	get_devices();

@@ -1,5 +1,5 @@
-<h1 class="text-center uppercase mt-5">my github repositories</h1>
-<div class="h-full mx-auto mt-5">
+<div class="container h-full mx-auto flex flex-col justify-center items-center">
+	<h1>my github repositories</h1>
 	<div class="flex flex-row flex-wrap justify-center">
 		{#each repos as repo}
 		{#if !repo.fork}
@@ -9,7 +9,7 @@
 			{:else}
 			<br>
 			{/if}
-			<h2 class="text-center mt-2">{repo.name}</h2>
+			<h3 class="text-center mt-2">{repo.name}</h3>
 			<div class="justify-center text-center mt-4 mb-4">
 				<a class="btn bg-primary-hover-token border-2 border-cyan-400 text-cyan-400 mr-1" href="{repo.html_url}" target="_blank">
 					<IconBrandGithub />

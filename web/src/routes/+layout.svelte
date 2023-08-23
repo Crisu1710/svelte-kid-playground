@@ -1,49 +1,50 @@
-<script>
-	// The ordering of these imports is critical to your app working properly
-	import '@skeletonlabs/skeleton/themes/theme-skeleton.css';
-	// If you have source.organizeImports set to true in VSCode, then it will auto change this ordering
-	import '@skeletonlabs/skeleton/styles/skeleton.css';
-	// Most of your app wide CSS should be put in this file
-	import '../app.postcss';
-	import { AppShell, AppBar, LightSwitch } from '@skeletonlabs/skeleton';
-	import { IconHome, IconBrandGithub, IconMicroscope, IconCloudComputing, IconDevicesPc} from '@tabler/icons-svelte';
-</script>
-
-<!-- App Shell -->
-<AppShell>
+<AppShell slotSidebarRight="bg-surface-500/5 w-56 p-4">
 	<svelte:fragment slot="header">
 		<!-- App Bar -->
 		<AppBar padding="p-0">
 			<svelte:fragment slot="lead">
-				<strong class="text-xl uppercase ml-4">my test 123</strong>
+				<!-- <div class="flex items-center">
+					<button class="lg:hidden btn btn-sm mr-4">
+						<span>
+							<svg viewBox="0 0 100 80" class="fill-token w-4 h-4">
+								<rect width="100" height="20" />
+								<rect y="30" width="100" height="20" />
+								<rect y="60" width="100" height="20" />
+							</svg>
+						</span>
+					</button> -->
+					<strong class="text-xl uppercase ml-4">my test 123</strong>
+				<!-- </div> -->
 			</svelte:fragment>
 			<svelte:fragment slot="trail">
-				<div class="mr-4">
-					<a class="btn rounded-none bg-primary-hover-token h-16" href="/skills">
-						<IconCloudComputing />
-						<p class="uppercase">skills</p>
-					</a>
-					<a class="btn rounded-none bg-primary-hover-token h-16" href="/setup">
-						<IconMicroscope/>
-						<p class="uppercase">homelab</p>
-					</a>
-					<a class="btn rounded-none bg-primary-hover-token h-16" href="/setup">
-						<IconDevicesPc />
-						<p class="uppercase">my settup</p>
-					</a>
-					<a class="btn rounded-none bg-primary-hover-token h-16" href="/github">
-						<IconBrandGithub />
-						<p class="uppercase">git repos</p>
-					</a>
-					<a class="btn rounded-none bg-primary-hover-token h-16" href="/home">
-						<IconHome />
-						<p class="uppercase">home</p>
-					</a>
-				</div>
-				<!-- <LightSwitch/> -->
+				<NavigationBar />
 			</svelte:fragment>
+		</AppBar>
+	</svelte:fragment>
+	<!-- <svelte:fragment slot="sidebarRight">
+		<Navigation />	
+	</svelte:fragment> -->
+	<svelte:fragment slot="pageFooter">
+		<AppBar padding="p-2" gridColumns="grid-cols-1" slotDefault="place-self-center">
+			<a href="/imprint" class="justify-center items-center">imprint</a>
 		</AppBar>
 	</svelte:fragment>
 	<!-- Page Route Content -->
 	<slot />
 </AppShell>
+
+<script>
+	import '@skeletonlabs/skeleton/themes/theme-skeleton.css';
+	import '@skeletonlabs/skeleton/styles/skeleton.css';
+	import '../app.postcss';
+	//import Navigation from '$lib/Navigation/Navigation.svelte';
+	import NavigationBar from '$lib/Navigation/NavigationBar.svelte'
+	import { AppShell, AppBar } from '@skeletonlabs/skeleton';
+
+	// initializeStores();
+	// const drawerStore = getDrawerStore();
+
+	// function drawerOpen(){
+	// 	drawerStore.open({});
+	// }
+</script>
