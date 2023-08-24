@@ -27,7 +27,7 @@
         <li>
             <a class="btn rounded-none bg-primary-hover-token h-16" href="/">
                 <IconHome />
-                <p class="uppercase">home</p>
+                <!-- <p class="uppercase">home</p> -->
             </a>
         </li>
     </ul>

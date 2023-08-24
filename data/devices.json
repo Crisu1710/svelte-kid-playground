@@ -12,7 +12,7 @@
    },
    {
       "icon":"mdi-laptop",
-      "os":"Manjaro Linux (XFCE)",
+      "os":"ARCH (XFCE)",
       "name":"ThinkPad T570",
       "cpu":"Intel Core i5-7200U",
       "gpu":"CPU",
@@ -23,7 +23,7 @@
    },
    {
       "icon":"mdi-laptop",
-      "os":"Manjaro Linux",
+      "os":"ARCH (XFCE)",
       "name":"ThinkPad W500",
       "cpu":"Intel",
       "gpu":"Nvidia",

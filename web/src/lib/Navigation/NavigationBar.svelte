@@ -15,10 +15,10 @@
         <IconBrandGithub />
         <p class="uppercase">git repos</p>
     </a>
-    <a class="btn rounded-none bg-primary-hover-token h-16" href="/">
+    <!-- <a class="btn rounded-none bg-primary-hover-token h-16" href="/">
         <IconHome />
         <p class="uppercase">home</p>
-    </a>
+    </a> -->
 </div>
 
 <script>

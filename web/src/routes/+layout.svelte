@@ -13,7 +13,7 @@
 							</svg>
 						</span>
 					</button> -->
-					<strong class="text-xl uppercase ml-4">my test 123</strong>
+					<a href="/" class="text-xl uppercase ml-4">robins.run</a>
 				<!-- </div> -->
 			</svelte:fragment>
 			<svelte:fragment slot="trail">

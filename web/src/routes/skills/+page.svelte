@@ -2,7 +2,7 @@
 	<h1>My Technical skills</h1>
 	<div class="flex flex-col items-center" style="width: 100%;">
 	{#each skills as skill}
-		<div class="card p-8 mt-4" style="width: 90%;">
+		<div class="card p-8 mb-4" style="width: 90%;">
 			<div class="flex flex-row">
 				<div class="text-left" style="width: 40%;">
 					<h2 class="text-cyan-400 mb-6">{skill.name}</h2>
